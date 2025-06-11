@@ -1,118 +1,594 @@
 { 
- "version": "1.0.9",
-  "versionlibraries":"1.0.2",
-  "versionExecutables":"1.1.1",
-  "versionExecutablesInit":"1.0.1",
+ "version": "1.0.0",
+  "versionlibraries":"1.0.0",
+  "versionExecutables":"1.0.0",
+  "versionExecutablesInit":"1.0.0",
   "jar": {
-    "filename": "VpnConnectionGui.jar",
-    "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/VpnConnectionGui.jar",
-	"urljson":"https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/version.json",
+    "filename": "ImageGenerator.jar",
+    "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/ImageGenerator.jar",
+	"urljson":"https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/version.json",
     "checksum": "845623a6bc4f4374bf8a69ddce1254108309ea70e4238dd7afd6e83cdc14f70a"
   },
   "libraries": [
     {
-      "filename": "commons-codec-1.15.jar",
-      "version": "1.15",
-      "name": "commons-codec.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/commons-codec-1.15.jar",
+      "filename": "001-filters-2.0.235-1.jar",
+      "version": "2.0.235",
+      "name": "filters.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/001-filters-2.0.235-1.jar",
       "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
     },
 	{
-      "filename": "commons-exec-1.3.jar",
-      "version": "1.3",
-      "name": "commons-exec.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/commons-exec-1.3.jar",
+      "filename": "002-jai_codec-1.1.3.jar",
+      "version": "1.1.3",
+      "name": "jai_codec.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/002-jai_codec-1.1.3.jar",
       "checksum": "cb49812dc1bfb0ea4f20f398bcae1a88c6406e213e67f7524fb10d4f8ad9347b"
     },
 	{
-      "filename": "httpclient5-5.3.1.jar",
-      "version": "5.3.1",
-      "name": "httpclient5.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/httpclient5-5.3.1.jar",
+      "filename": "002-jai_core-1.1.3.jar",
+      "version": "1.1.3",
+      "name": "jai_core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/002-jai_core-1.1.3.jar",
       "checksum": "08346a757c617f6ecc66af9f099260adde1f3a1351fa81cb22fc17482b31f823"
     },
     {
-      "filename": "httpcore5-5.3.1.jar",
-      "version": "5.3.1",
-      "name": "httpcore5.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/httpcore5-5.3.1.jar",
+      "filename": "003-ij-1.54i.jar",
+      "version": "1.54",
+      "name": "ij.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/003-ij-1.54i.jar",
       "checksum": "83f559ad1ee723c1ab3e80b040551cfacb2e5a52bdf04dcdd35419a6760d81b3"
     },
 	{
-      "filename": "httpcore5-h2-5.3.1.jar",
-      "version": "5.3.1",
-      "name": "httpcore5-h2.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/httpcore5-h2-5.3.1.jar",
+      "filename": "004-javafx-3.1.7.jar",
+      "version": "3.1.7",
+      "name": "javafx.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/004-javafx-3.1.7.jar",
       "checksum": "963e194a972aa3daf09287c921ed5a2dd4c3985c44185b0138002943025bed6a"
     },
 	{
-      "filename": "json-20240303.jar",
-      "version": "20240303",
-      "name": "json.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/json-20240303.jar",
+      "filename": "005-common-image-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "common-image.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/005-common-image-3.10.1.jar",
       "checksum": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed"
     },
 	{
-      "filename": "slf4j-api-2.0.16.jar",
-      "version": "2.0.16",
-      "name": "slf4j-api.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/slf4j-api-2.0.16.jar",
+      "filename": "005-common-io-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "common-io.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/005-common-io-3.10.1.jar",
       "checksum": "a12578dde1ba00bd9b816d388a0b879928d00bab3c83c240f7013bf4196c579a"
     },
 	{
-      "filename": "slf4j-simple-2.0.16.jar",
+      "filename": "005-common-lang-3.10.1.jar",
       "version": "2.0.16",
       "name": "slf4j-simple.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/slf4j-api-2.0.16.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/005-common-lang-3.10.1.jar",
       "checksum": "effc32018658bea09d1e08c7d1060ccad46c086960f583d07dd7ffe9c1172a47"
     },
     {
-      "filename": "flatlaf-3.5.4.jar",
+      "filename": "005-commons-codec-1.15.jar",
       "version": "3.5.4",
       "name": "flatlaf.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/flatlaf-3.5.4.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/005-commons-codec-1.15.jar",
       "checksum": "3c34b6aeb2f170a954c4358647eb43b68b447a2c351ff311072f7157a5d4e2fe"
     },
 	 {
-      "filename": "ShellExecutor-1.1.jar",
+      "filename": "006-imageio-core-3.10.1.jar",
       "version": "1.1",
       "name": "ShellExecutor.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/ShellExecutor-1.1.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/006-imageio-core-3.10.1.jar",
       "checksum": "2ca3b32c0638ac334cf706c478e876e1b79dd6cfacf848bddd77a84e1a0f8a21"
     },
 	 {
-      "filename": "Notify-3.7.jar",
+      "filename": "006-imageio-jpeg-3.10.1.jar",
       "version": "3.7",
       "name": "Notify.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/Notify-3.7.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/006-imageio-jpeg-3.10.1.jar",
       "checksum": "8627ce0a8a60a5f03989073e55ff5db5f8c7c9da9a95a41da4b86930a9b7a45b"
     },
 	 {
-      "filename": "OS-1.11.jar",
+      "filename": "006-imageio-metadata-3.10.1.jar",
       "version": "1.11",
       "name": "OS.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/OS-1.11.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/006-imageio-metadata-3.10.1.jar",
       "checksum": "b7b7c16b083c6a0fc6db3d727d4564291ff0ff634779fd93321eb700cd8c6df8"
     },
 	{
-      "filename": "SystemTray-3.17.jar",
+      "filename": "007-apiguardian-api-1.1.2.jar",
       "version": "3.17",
       "name": "SystemTray.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/SystemTray-3.17.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-apiguardian-api-1.1.2.jar",
       "checksum": "2c38c64c7afad67e8e71d94c22c81f704972410050169d3c14f11df333034282"
     },
 	{
-      "filename": "jna-5.12.1.jar",
+      "filename": "007-commons-io-2.15.0.jar",
       "version": "5.12.1",
       "name": "jna.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/jna-5.12.1.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-commons-io-2.15.0.jar",
       "checksum": "91a814ac4f40d60dee91d842e1a8ad874c62197984403d0e3c30d39e55cf53b3"
     },
 	{
-      "filename": "TweenEngine-8.3.jar",
+      "filename": "007-commons-logging-1.2.jar",
       "version": "8.3",
       "name": "flatlaf.jar",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/lib/TweenEngine-8.3.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-commons-logging-1.2.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-easyocr-3.0.4-RELEASE.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-easyocr-3.0.4-RELEASE.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-fontbox-3.0.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-fontbox-3.0.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-jai-imageio-core-1.4.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-jai-imageio-core-1.4.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-jbig2-imageio-3.0.4.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-jbig2-imageio-3.0.4.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-jboss-logging-3.1.4.GA.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-jboss-logging-3.1.4.GA.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-jboss-vfs-3.2.17.Final.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-jboss-vfs-3.2.17.Final.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-jna-5.14.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-jna-5.14.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-jupiter-5.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-jupiter-5.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-jupiter-api-5.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-jupiter-api-5.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-jupiter-engine-5.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-jupiter-engine-5.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-jupiter-params-5.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-jupiter-params-5.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-platform-commons-1.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-platform-commons-1.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-junit-platform-engine-1.10.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-junit-platform-engine-1.10.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-lept4j-1.19.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-lept4j-1.19.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-logback-classic-1.3.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-logback-classic-1.3.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-logback-core-1.3.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-logback-core-1.3.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-opentest4j-1.3.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-opentest4j-1.3.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-pdfbox-3.0.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-pdfbox-3.0.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-pdfbox-tools-3.0.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-pdfbox-tools-3.0.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-picocli-4.7.5.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-picocli-4.7.5.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-slf4j-api-2.0.12.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-slf4j-api-2.0.12.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "007-tess4j-5.11.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/007-tess4j-5.11.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "008-metadata-extractor-2.19.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/008-metadata-extractor-2.19.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "009-twelvemonkeys-imageio-core-2.3.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/009-twelvemonkeys-imageio-core-2.3.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "010-batik-1.8.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/010-batik-1.8.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "011-flying-saucer-core-9.1.22.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/011-flying-saucer-core-9.1.22.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "012-jsoup-1.11.2.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/012-jsoup-1.11.2.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-bcpkix-jdk15on-1.69.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-bcpkix-jdk15on-1.69.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-bcprov-jdk15on-1.69.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-bcprov-jdk15on-1.69.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-bcutil-jdk15on-1.69.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-bcutil-jdk15on-1.69.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-commons-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-commons-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-forms-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-forms-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-html2pdf-4.0.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-html2pdf-4.0.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-io-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-io-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-kernel-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-kernel-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-layout-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-layout-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-slf4j-api-1.7.31.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-slf4j-api-1.7.31.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-styled-xml-parser-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-styled-xml-parser-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "013-svg-7.2.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/013-svg-7.2.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "014-imgscalr-lib-4.2.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/014-imgscalr-lib-4.2.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "015-itextpdf-5.5.13.3.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/015-itextpdf-5.5.13.3.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "016-mlibwrapper_jai.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/016-mlibwrapper_jai.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "017-postgresql-42.2.23.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/017-postgresql-42.2.23.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-commons-collections4-4.4.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-commons-collections4-4.4.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-commons-compress-1.25.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-commons-compress-1.25.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-log4j-api-2.21.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-log4j-api-2.21.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-log4j-core-2.20.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-log4j-core-2.20.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-poi-5.2.5.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-poi-5.2.5.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-poi-ooxml-5.2.5.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-poi-ooxml-5.2.5.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-poi-ooxml-lite-5.2.5.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-poi-ooxml-lite-5.2.5.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "018-xmlbeans-5.2.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/018-xmlbeans-5.2.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "019-commons-imaging-1.0.0-alpha4.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/019-commons-imaging-1.0.0-alpha4.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "020-pngtastic-1.7.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/020-pngtastic-1.7.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "021-httpclient5-5.3.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/021-httpclient5-5.3.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "021-httpcore5-5.3.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/021-httpcore5-5.3.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "021-httpcore5-h2-5.3.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/021-httpcore5-h2-5.3.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "022-gson-2.13.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/022-gson-2.13.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "022-protobuf-java-4.30.2.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/022-protobuf-java-4.30.2.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "022-tink-1.17.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/022-tink-1.17.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "023-eddsa-0.3.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/023-eddsa-0.3.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "023-nearenough.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/023-nearenough.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "023-netty-buffer-4.1.121.Final.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/023-netty-buffer-4.1.121.Final.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "023-netty-common-4.1.121.Final.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/023-netty-common-4.1.121.Final.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "024-jna-5.17.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/024-jna-5.17.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "024-jna-platform-5.17.0.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/024-jna-platform-5.17.0.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "024-oshi-core-6.8.1.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/024-oshi-core-6.8.1.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "AbsoluteLayout.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/AbsoluteLayout.jar",
+      "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
+    },
+	{
+      "filename": "opencv-410.jar",
+      "version": "8.3",
+      "name": "flatlaf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/lib/opencv-410.jar",
       "checksum": "5c4a58c44c77dd82927ee25b63c822653ab3d44deb0b59c5f59baf8dcddd1e17"
     }
 
