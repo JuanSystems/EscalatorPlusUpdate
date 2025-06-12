@@ -592,6 +592,13 @@
       "checksum": "a519d72d79951758b769f374f37d4e124ff3bf38559a929beda4e17fb5288b2a"
     },
 	{
+      "filename": "025-json-20240303.jar",
+      "version": "20240303",
+      "name": "json.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/024-oshi-core-6.8.1.jar",
+      "checksum": "a519d72d79951758b769f374f37d4e124ff3bf38559a929beda4e17fb5288b2a"
+    },
+	{
       "filename": "AbsoluteLayout.jar",
       "version": "1.0",
       "name": "AbsoluteLayout.jar",
@@ -610,84 +617,42 @@
   
    "executables": [
     {
-      "filename": "connectionGateway.exe",
+      "filename": "create_database.bat",
       "version": "1.0",
-      "name": "connectionGateway.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/connectionGateway.exe",
-      "checksum": "03c86ddb32fe644589c377245563c792b6021f0e16d06547468c75510600dfae"
+      "name": "create_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/create_database.bat",
+      "checksum": "f6b9c8fe1f9eefb4ce41b3a61ba33808d0be27ac137ffb8df251cebdf29be3d4"
     },
 	{
-      "filename": "connectOpenVpnRevArg.exe",
-      "version": "1.8",
-      "name": "connectOpenVpnRevArg.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/connectOpenVpnRevArg.exe",
-      "checksum": "8aff55a4bbc7812f4c76d89fd4ffe7e70e0488e097ac86a9326382c78a99e68c"
+      "filename": "restore_database.bat",
+      "version": "1.0",
+      "name": "restore_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/restore_database.bat",
+      "checksum": "048736c6a8fdc936d0240d316911c1d80382770ebc5ad8b4849f5fdb45532117"
     },
 	{
-      "filename": "disconnectOpenVpn.exe",
-      "version": "1.1",
-      "name": "disconnectOpenVpn.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/disconnectOpenVpn.exe",
-      "checksum": "e5fbd472382d9d9a8dfb6da5784fa0bdb86bec27f5ab0f3f332a83ab03b2fda8"
+      "filename": "sleep.bat",
+      "version": "1.0",
+      "name": "sleep.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/sleep.bat",
+      "checksum": "53d912937d72213fd1027d0b23fa4ab5a13dcf18116cc70f0bfecbe672daaa55"
     },
     {
-      "filename": "launchAppInSession.exe",
-      "version": "1.1",
-      "name": "launchAppInSession.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/launchAppInSession.exe",
-      "checksum": "01f430bee6fa8e75cd4726dd34204ba16ca218f564a82fcb637394026c1188d0"
-    },
-	{
-      "filename": "PsExec.exe",
+      "filename": "update_database.bat",
       "version": "1.0",
-      "name": "PsExec.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/PsExec.exe",
-      "checksum": "078163d5c16f64caa5a14784323fd51451b8c831c73396b967b4e35e6879937b"
-    },
-	{
-      "filename": "RuleToProtectProxy.exe",
-      "version": "1.0",
-      "name": "RuleToProtectProxy.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/RuleToProtectProxy.exe",
-      "checksum": "176874eebb04eda4a2aa26989810b05568d3bb1bb51ccc7e9c08972279821696"
-    },
-	{
-      "filename": "runAsAdmin.exe",
-      "version": "1.0",
-      "name": "runAsAdmin.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/runAsAdmin.exe",
-      "checksum": "db6835f0064fa47dd44571209dd788e4ed918343931d404c9dd9704f3dcc244d"
-    },
-	{
-      "filename": "stateConnection.exe",
-      "version": "1.0",
-      "name": "stateConnection.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/stateConnection.exe",
-      "checksum": "5b73eb6a30bf08860d2e25a1ca00d37a9be4ffac177e2c083e050b1baf71c0a1"
-    },
-	{
-      "filename": "taskillPid.exe",
-      "version": "1.0",
-      "name": "taskillPid.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/scriptVpn/taskillPid.exe",
-      "checksum": "05f38a990dc22aeaca644b655b0f309a6b1960fc423227d44681bb1526634fe4"
+      "name": "update_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/update_database.bat",
+      "checksum": "2ef45681381ae613cfda657bf6a8cc52c6f4c9c840f8864b1b44f899a6c6823c"
     }
   ],
   
    "executablesInit": [
     {
-      "filename": "exect-VpnConnectionGui.exe",
+      "filename": "AppEscalatorPlus.exe",
       "version": "1.0",
-      "name": "exect-VpnConnectionGui.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/exect-VpnConnectionGui.exe",
-      "checksum": "1dccb07ea44849a83c4656d8b7600e9718ff248fe62e9829721f7ad73825df98"
-    },
-	 {
-      "filename": "init.exe",
-      "version": "1.0",
-      "name": "init.exe",
-      "url": "https://github.com/JuanSystems/VpnConnectionGuiUpdate/raw/main/init.exe",
-      "checksum": "7cb62aa456b0e5209025e49281372102febdf92a8b022cde450e8025c7c5c6f0"
+      "name": "AppEscalatorPlus.exe",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/AppEscalatorPlus.exe",
+      "checksum": "75f2178c24965c36fc72c2ed22951f3c0eeacb363a6aa480053840c662ef0243"
     }
 	
   ]
