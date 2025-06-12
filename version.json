@@ -595,8 +595,8 @@
       "filename": "025-json-20240303.jar",
       "version": "20240303",
       "name": "json.jar",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/024-oshi-core-6.8.1.jar",
-      "checksum": "a519d72d79951758b769f374f37d4e124ff3bf38559a929beda4e17fb5288b2a"
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/025-json-20240303.jar",
+      "checksum": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed"
     },
 	{
       "filename": "AbsoluteLayout.jar",
@@ -620,28 +620,28 @@
       "filename": "create_database.bat",
       "version": "1.0",
       "name": "create_database.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/create_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/create_database.bat",
       "checksum": "f6b9c8fe1f9eefb4ce41b3a61ba33808d0be27ac137ffb8df251cebdf29be3d4"
     },
 	{
       "filename": "restore_database.bat",
       "version": "1.0",
       "name": "restore_database.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/restore_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/restore_database.bat",
       "checksum": "048736c6a8fdc936d0240d316911c1d80382770ebc5ad8b4849f5fdb45532117"
     },
 	{
       "filename": "sleep.bat",
       "version": "1.0",
       "name": "sleep.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/sleep.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/sleep.bat",
       "checksum": "53d912937d72213fd1027d0b23fa4ab5a13dcf18116cc70f0bfecbe672daaa55"
     },
     {
       "filename": "update_database.bat",
       "version": "1.0",
       "name": "update_database.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/install/update_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/update_database.bat",
       "checksum": "2ef45681381ae613cfda657bf6a8cc52c6f4c9c840f8864b1b44f899a6c6823c"
     }
   ],
@@ -651,8 +651,8 @@
       "filename": "AppEscalatorPlus.exe",
       "version": "1.0",
       "name": "AppEscalatorPlus.exe",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/blob/main/AppEscalatorPlus.exe",
-      "checksum": "75f2178c24965c36fc72c2ed22951f3c0eeacb363a6aa480053840c662ef0243"
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/AppEscalatorPlus.exe",
+      "checksum": "f553362b293edb2e06247ad269d0bcae12111439572acab5d0ce67e8387ff2f1"
     }
 	
   ]
