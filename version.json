@@ -660,7 +660,7 @@
       "name": "restore_database.bat",
       "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/restore_database.bat",
       "checksum": "048736c6a8fdc936d0240d316911c1d80382770ebc5ad8b4849f5fdb45532117"
-    },
+    }
 
   
    "executablesInit": [
