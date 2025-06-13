@@ -7,7 +7,7 @@
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
 	"urljson":"https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/version.json",
-    "checksum": "845623a6bc4f4374bf8a69ddce1254108309ea70e4238dd7afd6e83cdc14f70a"
+    "checksum": "23bf35cca1ae8e89d1999955d63597eadc60133a449c352e966bc35ac2ef26ff"
   },
   "libraries": [
     {
