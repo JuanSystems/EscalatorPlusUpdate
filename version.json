@@ -3,6 +3,7 @@
   "versionlibraries":"1.0.0",
   "versionExecutables":"1.0.0",
   "versionExecutablesInit":"1.0.0",
+  "versionFilesBD":"1.0.0",
   "jar": {
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
@@ -649,17 +650,17 @@
    "filesbd": [
     {
       "filename": "2-10-2024_install",
-      "version": "1.0",
-      "name": "create_database.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/create_database.bat",
-      "checksum": "f6b9c8fe1f9eefb4ce41b3a61ba33808d0be27ac137ffb8df251cebdf29be3d4"
+      "version": "2.10.2024",
+      "name": "install",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
+      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
     },
 	{
       "filename": "26-05-2025_install",
-      "version": "1.0",
-      "name": "restore_database.bat",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/restore_database.bat",
-      "checksum": "048736c6a8fdc936d0240d316911c1d80382770ebc5ad8b4849f5fdb45532117"
+      "version": "26.05.2025",
+      "name": "install",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/26-05-2025_install",
+      "checksum": "0188e53d75935ba9fa055e0186bb4e4c81fb245ef8d686e4545cc2e58f1ef575"
     }
 	],
 
