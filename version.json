@@ -3,7 +3,7 @@
   "versionlibraries":"1.0.0",
   "versionExecutables":"1.0.0",
   "versionExecutablesInit":"1.0.0",
-  "versionFilesBD":"1.0.5",
+  "versionFilesBD":"1.0.6",
   "jar": {
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
@@ -648,52 +648,24 @@
   ],
   
    "filesbd": [
-    {
-      "filename": "1-6-2024_install",
-      "version": "1.6.2024",
-      "name": "install",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
-      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
-    },
-   {
-      "filename": "1-7-2024_install",
-      "version": "1.7.2024",
-      "name": "install",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
-      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
-    },
-   {
-      "filename": "1-8-2024_install",
-      "version": "1.8.2024",
-      "name": "install",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
-      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
-    },
-   {
-      "filename": "1-9-2024_install",
-      "version": "1.9.2024",
-      "name": "install",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
-      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
-    },
    {
       "filename": "1-10-2024_install",
       "version": "1.10.2024",
-      "name": "install",
+      "name": "1-10-2024",
       "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
       "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
     },
     {
       "filename": "2-10-2024_install",
       "version": "2.10.2024",
-      "name": "install",
+      "name": "2-10-2024",
       "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
       "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
     },
 	{
       "filename": "26-05-2025_install",
       "version": "26.05.2025",
-      "name": "install",
+      "name": "26-05-2025",
       "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/26-05-2025_install",
       "checksum": "0188e53d75935ba9fa055e0186bb4e4c81fb245ef8d686e4545cc2e58f1ef575"
     }
