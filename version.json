@@ -1,14 +1,14 @@
 { 
- "version": "1.0.4",
+ "version": "1.0.6",
   "versionlibraries":"1.0.0",
   "versionExecutables":"1.0.0",
   "versionExecutablesInit":"1.0.0",
-  "versionFilesBD":"1.0.6",
+  "versionFilesBD":"1.0.0",
   "jar": {
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
 	"urljson":"https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/version.json",
-    "checksum": "d910941f7c9282f383bf5ee901ffbc62bdb6877439b68c05531019118eb7b741"
+    "checksum": "56378ba24f5d3af6db2dd154b0110a540708ed0091c44354602e3bd5f5c73f58"
   },
   "libraries": [
     {
@@ -648,13 +648,6 @@
   ],
   
    "filesbd": [
-   {
-      "filename": "1-10-2024_install",
-      "version": "1.10.2024",
-      "name": "1-10-2024",
-      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
-      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
-    },
     {
       "filename": "2-10-2024_install",
       "version": "2.10.2024",
