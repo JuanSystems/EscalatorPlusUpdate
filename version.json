@@ -649,6 +649,13 @@
   
    "filesbd": [
    {
+      "filename": "1-8-2024_install",
+      "version": "1.8.2024",
+      "name": "install",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
+      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
+    },
+   {
       "filename": "1-9-2024_install",
       "version": "1.9.2024",
       "name": "install",
