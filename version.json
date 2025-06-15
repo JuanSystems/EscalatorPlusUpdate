@@ -3,7 +3,7 @@
   "versionlibraries":"1.0.0",
   "versionExecutables":"1.0.0",
   "versionExecutablesInit":"1.0.0",
-  "versionFilesBD":"1.0.1",
+  "versionFilesBD":"1.0.2",
   "jar": {
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
