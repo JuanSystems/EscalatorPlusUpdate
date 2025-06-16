@@ -1,0 +1,677 @@
+{ 
+ "version": "1.0.6",
+  "versionlibraries":"1.0.0",
+  "versionExecutables":"1.0.0",
+  "versionExecutablesInit":"1.0.0",
+  "versionFilesBD":"1.0.0",
+  "jar": {
+    "filename": "ImageGenerator.jar",
+    "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
+	"urljson":"https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/version.json",
+    "checksum": "56378ba24f5d3af6db2dd154b0110a540708ed0091c44354602e3bd5f5c73f58"
+  },
+  "libraries": [
+    {
+      "filename": "001-filters-2.0.235-1.jar",
+      "version": "2.0.235",
+      "name": "filters.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/001-filters-2.0.235-1.jar",
+      "checksum": "a37202f03eae99ab1faf2a89eeaee3665c8489f45b1aeb0d5926d78a54c613bf"
+    },
+	{
+      "filename": "002-jai_codec-1.1.3.jar",
+      "version": "1.1.3",
+      "name": "jai_codec.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/002-jai_codec-1.1.3.jar",
+      "checksum": "6d7824d972c0b6e10daa95f430f917d2256954535e62def9d287e79bf7824200"
+    },
+	{
+      "filename": "002-jai_core-1.1.3.jar",
+      "version": "1.1.3",
+      "name": "jai_core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/002-jai_core-1.1.3.jar",
+      "checksum": "8b696cf067533545f44c2f68339e24ab1a2669153ed2081aa5be8749f4d592bf"
+    },
+    {
+      "filename": "003-ij-1.54i.jar",
+      "version": "1.54",
+      "name": "ij.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/003-ij-1.54i.jar",
+      "checksum": "4bcdc3ef8e48170c6a3995eb6b11c5d834ab7a0d49b1eab805286b33bf32a6bc"
+    },
+	{
+      "filename": "004-javafx-3.1.7.jar",
+      "version": "3.1.7",
+      "name": "javafx.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/004-javafx-3.1.7.jar",
+      "checksum": "9928fac71a5d21c0f106eb5e70615a2d6c5b4f3afcc2d0d28c5a3fc7da77e492"
+    },
+	{
+      "filename": "005-common-image-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "common-image.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/005-common-image-3.10.1.jar",
+      "checksum": "960e9bce140694d0d7b8fe958dc9ab04f8d625c428f7aa9e9bfa1d7d9cd416d1"
+    },
+	{
+      "filename": "005-common-io-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "common-io.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/005-common-io-3.10.1.jar",
+      "checksum": "5691fb7ad2402f8155e97a975530c143979036abc34361649d93b9ba41c2ce01"
+    },
+	{
+      "filename": "005-common-lang-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "common-lang.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/005-common-lang-3.10.1.jar",
+      "checksum": "49d5eccf76df213c598189429c7d371a696a0b3b779e5052b0f9bb1fd1ed2f11"
+    },
+    {
+      "filename": "005-commons-codec-1.15.jar",
+      "version": "1.15",
+      "name": "commons-codec.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/005-commons-codec-1.15.jar",
+      "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+    },
+	 {
+      "filename": "006-imageio-core-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "imageio-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/006-imageio-core-3.10.1.jar",
+      "checksum": "bb992bd1adf89ee3fde68c7338ecba3f9d0feefe9cc1f6916908b350dc629254"
+    },
+	 {
+      "filename": "006-imageio-jpeg-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "imageio-jpeg.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/006-imageio-jpeg-3.10.1.jar",
+      "checksum": "96c38cba8026777b8307bedf716b0ea8796140f4e05b2fd1dbf50d5c26572bf5"
+    },
+	 {
+      "filename": "006-imageio-metadata-3.10.1.jar",
+      "version": "3.10.1",
+      "name": "imageio-metadata.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/006-imageio-metadata-3.10.1.jar",
+      "checksum": "4ead4e5faff303f781bc8fef1b86f4aeff8f9b35d15f2f82f60ea076a364e602"
+    },
+	{
+      "filename": "007-apiguardian-api-1.1.2.jar",
+      "version": "1.1.2",
+      "name": "apiguardian-api.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-apiguardian-api-1.1.2.jar",
+      "checksum": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+    },
+	{
+      "filename": "007-commons-io-2.15.0.jar",
+      "version": "2.15.0",
+      "name": "commons-io.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-commons-io-2.15.0.jar",
+      "checksum": "a328dad730921d197b6a9b195dffa00e41c974c2dac8fe37e84d31706bca7792"
+    },
+	{
+      "filename": "007-commons-logging-1.2.jar",
+      "version": "1.2",
+      "name": "commons-logging.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-commons-logging-1.2.jar",
+      "checksum": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+    },
+	{
+      "filename": "007-easyocr-3.0.4-RELEASE.jar",
+      "version": "3.0.4",
+      "name": "easyocr.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-easyocr-3.0.4-RELEASE.jar",
+      "checksum": "4bcd1b55474358df5dde5a52d1a130658b0625e5f9def232a428bcefc96802ab"
+    },
+	{
+      "filename": "007-fontbox-3.0.1.jar",
+      "version": "3.0.1",
+      "name": "fontbox.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-fontbox-3.0.1.jar",
+      "checksum": "9d2c2d38449299cd0d821a2f6f65671433251448d3df579faffd0f87361c7c7e"
+    },
+	{
+      "filename": "007-jai-imageio-core-1.4.0.jar",
+      "version": "1.4.0",
+      "name": "jai-imageio-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-jai-imageio-core-1.4.0.jar",
+      "checksum": "8ad3c68e9efffb10ac87ff8bc589adf64b04a729c5194c079efd0643607fd72a"
+    },
+	{
+      "filename": "007-jbig2-imageio-3.0.4.jar",
+      "version": "3.0.4",
+      "name": "jbig2-imageio.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-jbig2-imageio-3.0.4.jar",
+      "checksum": "29cb2951622f10acf61fd0656c4e6fa5562194a9095f7a1d26aa426e2f6b17eb"
+    },
+	{
+      "filename": "007-jboss-logging-3.1.4.GA.jar",
+      "version": "3.1.4",
+      "name": "jboss-logging.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-jboss-logging-3.1.4.GA.jar",
+      "checksum": "486a3600efe286d7e380e570f8e97caca0b14ad8367c4a38a3261a08dc30dd48"
+    },
+	{
+      "filename": "007-jboss-vfs-3.2.17.Final.jar",
+      "version": "3.2.17",
+      "name": "jboss-vfs.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-jboss-vfs-3.2.17.Final.jar",
+      "checksum": "6efc3fb070c51246e4b196a245b181c126303eb19c18597e4418499b6a1b9e6d"
+    },
+	{
+      "filename": "007-jna-5.14.0.jar",
+      "version": "5.14.0",
+      "name": "jna.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-jna-5.14.0.jar",
+      "checksum": "34ed1e1f27fa896bca50dbc4e99cf3732967cec387a7a0d5e3486c09673fe8c6"
+    },
+	{
+      "filename": "007-junit-jupiter-5.10.1.jar",
+      "version": "5.10.1",
+      "name": "junit-jupiter.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-jupiter-5.10.1.jar",
+      "checksum": "c1a386e901fae28e493185a47c8cea988fb1a37422b353a0f8b4df2e6c5d6037"
+    },
+	{
+      "filename": "007-junit-jupiter-api-5.10.1.jar",
+      "version": "5.10.1",
+      "name": "junit-jupiter-api.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-jupiter-api-5.10.1.jar",
+      "checksum": "60d5c398c32dc7039b99282514ad6064061d8417cf959a1f6bd2038cc907c913"
+    },
+	{
+      "filename": "007-junit-jupiter-engine-5.10.1.jar",
+      "version": "5.10.1",
+      "name": "junit-jupiter-engine.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-jupiter-engine-5.10.1.jar",
+      "checksum": "02930dfe495f93fe70b26550ace3a28f7e1b900c84426c2e4626ce020c7282d6"
+    },
+	{
+      "filename": "007-junit-jupiter-params-5.10.1.jar",
+      "version": "5.10.1",
+      "name": "junit-jupiter-params.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-jupiter-params-5.10.1.jar",
+      "checksum": "c8cf62debcbb354deefe1ffd0671eff785514907567d22a615ff8a8de4522b21"
+    },
+	{
+      "filename": "007-junit-platform-commons-1.10.1.jar",
+      "version": "1.10.1",
+      "name": "junit-platform-commons.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-platform-commons-1.10.1.jar",
+      "checksum": "7d9855ee3f3f71f015eb1479559bf923783243c24fbfbd8b29bed8e8099b5672"
+    },
+	{
+      "filename": "007-junit-platform-engine-1.10.1.jar",
+      "version": "1.10.1",
+      "name": "junit-platform-engine.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-junit-platform-engine-1.10.1.jar",
+      "checksum": "baa48e470d6dee7369a0a8820c51da89c1463279eda6e13a304d11f45922c760"
+    },
+	{
+      "filename": "007-lept4j-1.19.1.jar",
+      "version": "1.19.1",
+      "name": "lept4j.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-lept4j-1.19.1.jar",
+      "checksum": "5feb69a8fc9550809b23cb980270cdf99368dea330ba7d98789e2dc93f8bef6f"
+    },
+	{
+      "filename": "007-logback-classic-1.3.1.jar",
+      "version": "1.3.1",
+      "name": "logback-classic.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-logback-classic-1.3.1.jar",
+      "checksum": "93cb6b4a7d5096dd2209a1ab54d85f51b29e594c3aa2402b6b201279ba741d49"
+    },
+	{
+      "filename": "007-logback-core-1.3.1.jar",
+      "version": "1.3.1",
+      "name": "logback-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-logback-core-1.3.1.jar",
+      "checksum": "b122a855d204cdbd4c277787e1a5ac79d087b759416dd13cf3a249e2bbdb8122"
+    },
+	{
+      "filename": "007-opentest4j-1.3.0.jar",
+      "version": "1.3.0",
+      "name": "opentest4j.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-opentest4j-1.3.0.jar",
+      "checksum": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+    },
+	{
+      "filename": "007-pdfbox-3.0.1.jar",
+      "version": "3.0.1",
+      "name": "pdfbox.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-pdfbox-3.0.1.jar",
+      "checksum": "2b7a9f1fe4ba1aa76a1408ad2d47a906cee4925d61ba306dec543637a1cb7c8c"
+    },
+	{
+      "filename": "007-pdfbox-debugger-3.0.1.jar",
+      "version": "3.0.1",
+      "name": "pdfbox-debugger.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-pdfbox-debugger-3.0.1.007-pdfbox-io",
+      "checksum": "6144888b17270420b75f6dad6b049f34c0af1f8bf54e03ccde2ac2cf3d800b76"
+    },
+	{
+      "filename": "007-pdfbox-io-3.0.1.jar",
+      "version": "3.0.1",
+      "name": "pdfbox-io.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-pdfbox-io-3.0.1.jar",
+      "checksum": "c3819584ebd85236893464df11359160c70a2c9e9bdb244fbefec25b3beb16e3"
+    },
+	{
+      "filename": "007-pdfbox-tools-3.0.1.jar",
+      "version": "3.0.1",
+      "name": "pdfbox-tools.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-pdfbox-tools-3.0.1.jar",
+      "checksum": "5f33af25dd077c20ab5fa0f3e6c06d0b559aa8333349e590218c22f952cac6e0"
+    },
+	{
+      "filename": "007-picocli-4.7.5.jar",
+      "version": "4.7.5",
+      "name": "picocli.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-picocli-4.7.5.jar",
+      "checksum": "e83a906fb99b57091d1d68ac11f7c3d2518bd7a81a9c71b259e2c00d1564c8e8"
+    },
+	{
+      "filename": "007-slf4j-api-2.0.12.jar",
+      "version": "2.0.12",
+      "name": "slf4j-api.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-slf4j-api-2.0.12.jar",
+      "checksum": "a79502b8abdfbd722846a27691226a4088682d6d35654f9b80e2a9ccacf7ed47"
+    },
+	{
+      "filename": "007-tess4j-5.11.0.jar",
+      "version": "5.11.0",
+      "name": "tess4j.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/007-tess4j-5.11.0.jar",
+      "checksum": "d7e452bc589c409fa36cf75ec03f5d1016b87f9f6852b33312cd0ccd1ebb4b53"
+    },
+	{
+      "filename": "008-metadata-extractor-2.19.0.jar",
+      "version": "2.19.0",
+      "name": "metadata-extractor.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/008-metadata-extractor-2.19.0.jar",
+      "checksum": "e51bb454ed08ea2bfcc3ad147d088ad1aa73a999e0072563f8ae50021a2fcadb"
+    },
+	{
+      "filename": "009-twelvemonkeys-imageio-core-2.3.jar",
+      "version": "2.3",
+      "name": "twelvemonkeys-imageio-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/009-twelvemonkeys-imageio-core-2.3.jar",
+      "checksum": "647d9a10a4a9f964a534df38e56347c5bdec6de8bf2b6986a9fd16b7193acd6b"
+    },
+	{
+      "filename": "010-batik-1.8.jar",
+      "version": "1.8",
+      "name": "batik.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/010-batik-1.8.jar",
+      "checksum": "96ff4a122d6b483ff973b8154f833956035f4c5a071f58e47ad18fc92a5c15c1"
+    },
+	{
+      "filename": "011-flying-saucer-core-9.1.22.jar",
+      "version": "9.1.12",
+      "name": "flying-saucer-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/011-flying-saucer-core-9.1.22.jar",
+      "checksum": "1e54624341f85053b83949a059a268d3e3a2b63ef2a67dd6a91ee73025368882"
+    },
+	{
+      "filename": "012-jsoup-1.11.2.jar",
+      "version": "1.11.2",
+      "name": "jsoup.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/012-jsoup-1.11.2.jar",
+      "checksum": "f4b843e5012648676117f1cadf0adbd5dff91f0cb07b888d6b4d6e7cbb9737db"
+    },
+	{
+      "filename": "013-bcpkix-jdk15on-1.69.jar",
+      "version": "1.69",
+      "name": "bcpkix-jdk15on.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-bcpkix-jdk15on-1.69.jar",
+      "checksum": "408376d17aaa8789e7acd055fe404289a11fa335fd7c68a75329049fb7d28ed2"
+    },
+	{
+      "filename": "013-bcprov-jdk15on-1.69.jar",
+      "version": "1.69",
+      "name": "bcprov-jdk15on.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-bcprov-jdk15on-1.69.jar",
+      "checksum": "e469bd39f936999f256002631003ff022a22951da9d5bd9789c7abfa9763a292"
+    },
+	{
+      "filename": "013-bcutil-jdk15on-1.69.jar",
+      "version": "1.69",
+      "name": "bcutil-jdk15on.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-bcutil-jdk15on-1.69.jar",
+      "checksum": "29e40e2466d040d82a6f0e99635d0bc2bba3a94251cf7939cf0b69321caefc09"
+    },
+	{
+      "filename": "013-commons-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "commons.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-commons-7.2.1.jar",
+      "checksum": "5badf8eed577c3d52dfa98da78dd578d9ea6cca3e98873cd7d1c4f502ad420da"
+    },
+	{
+      "filename": "013-forms-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "forms.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-forms-7.2.1.jar",
+      "checksum": "316e9abd0abb0d18deb20ca0d48097e76933a462f77315fb8eef9e98722fc3ab"
+    },
+	{
+      "filename": "013-html2pdf-4.0.1.jar",
+      "version": "4.0.1",
+      "name": "html2pdf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-html2pdf-4.0.1.jar",
+      "checksum": "931a6034f7cf536a264a3433ede95fc2ab3baa36ce3309b02e661f1bc6708ba7"
+    },
+	{
+      "filename": "013-io-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "io.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-io-7.2.1.jar",
+      "checksum": "d824dc53c9694ca4dd48a1b857f52de4b3794d326d84eac73dee8605c908da89"
+    },
+	{
+      "filename": "013-kernel-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "kernel.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-kernel-7.2.1.jar",
+      "checksum": "de8fea7aa9fd3fcac0319c05659881a960dd0a844ae379f3457f0074186c941a"
+    },
+	{
+      "filename": "013-layout-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "layout.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-layout-7.2.1.jar",
+      "checksum": "f9f9f9f297ea549fc6a71b29bc540360aa78b95ed2f2cbb4994ee5ea4e6b23e1"
+    },
+	{
+      "filename": "013-slf4j-api-1.7.31.jar",
+      "version": "1.7.31",
+      "name": "slf4j-api.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-slf4j-api-1.7.31.jar",
+      "checksum": "cda862aa69683ac072ee2afd0b93d070ceab291ef5b857d318b24c1595b36b8a"
+    },
+	{
+      "filename": "013-styled-xml-parser-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "styled-xml-parser.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-styled-xml-parser-7.2.1.jar",
+      "checksum": "3ba1a3453e30ee55059886b74bd6da7839d586c184f0e231f5aed6b1bc88a3bb"
+    },
+	{
+      "filename": "013-svg-7.2.1.jar",
+      "version": "7.2.1",
+      "name": "svg.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/013-svg-7.2.1.jar",
+      "checksum": "93c80d3ff88f05cbbf58749c41ad5bc9c204ea5fdd875237e31eff3cc9d143f8"
+    },
+	{
+      "filename": "014-imgscalr-lib-4.2.jar",
+      "version": "4.2",
+      "name": "imgscalr-lib.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/014-imgscalr-lib-4.2.jar",
+      "checksum": "6f128a71c5e87a16f810513a73ad3c77d0ee0bb622ee0ce1ead115bccbc76d0a"
+    },
+	{
+      "filename": "015-itextpdf-5.5.13.3.jar",
+      "version": "5.5.13.3",
+      "name": "itextpdf.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/015-itextpdf-5.5.13.3.jar",
+      "checksum": "6e9ec05ac18b424166c61019ad1e8964269183b8a867c89a0207f222ae74ab8c"
+    },
+	{
+      "filename": "016-mlibwrapper_jai.jar",
+      "version": "1.0",
+      "name": "mlibwrapper_jai.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/016-mlibwrapper_jai.jar",
+      "checksum": "340c082a792e90a9106eda65ed6c101b6c5dd36524808366653d33b469ee1ca0"
+    },
+	{
+      "filename": "017-postgresql-42.2.23.jar",
+      "version": "42.2.23",
+      "name": "postgresql.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/017-postgresql-42.2.23.jar",
+      "checksum": "7a16267953ae981734febd0200cd86261ebb950a6a6a819467b8816b9bfcf6c7"
+    },
+	{
+      "filename": "018-commons-collections4-4.4.jar",
+      "version": "4.4.4",
+      "name": "commons-collections.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-commons-collections4-4.4.jar",
+      "checksum": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1"
+    },
+	{
+      "filename": "018-commons-compress-1.25.0.jar",
+      "version": "1.25.0",
+      "name": "commons-compress.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-commons-compress-1.25.0.jar",
+      "checksum": "d0ec8014ebbb0749f471803122b21796afddf2e98e194e4374622e5fbaf69f49"
+    },
+	{
+      "filename": "018-log4j-api-2.21.1.jar",
+      "version": "2.21.1",
+      "name": "log4j-api.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-log4j-api-2.21.1.jar",
+      "checksum": "1db48e180881bef1deb502022006a025a248d8f6a26186789b0c7ce487c602d6"
+    },
+	{
+      "filename": "018-log4j-core-2.20.0.jar",
+      "version": "2.20.0",
+      "name": "log4j-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-log4j-core-2.20.0.jar",
+      "checksum": "d6180f877ef1e2f0ba525147c2edccabbbe9d5f2977b31e20f40b77e3a160ef5"
+    },
+	{
+      "filename": "018-poi-5.2.5.jar",
+      "version": "5.2.5",
+      "name": "poi.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-poi-5.2.5.jar",
+      "checksum": "352e1b44a5777af2df3d7dc408cda9f75f932d0e0125fa1a7d336a13c0a663a7"
+    },
+	{
+      "filename": "018-poi-ooxml-5.2.5.jar",
+      "version": "5.2.5",
+      "name": "poi-ooxml.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-poi-ooxml-5.2.5.jar",
+      "checksum": "c6ad01a10cefa1d2a9c1b552bd4293a3eca29b513353f1ec814041d38da9ec5b"
+    },
+	{
+      "filename": "018-poi-ooxml-lite-5.2.5.jar",
+      "version": "5.2.5",
+      "name": "poi-ooxml-lite.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-poi-ooxml-lite-5.2.5.jar",
+      "checksum": "6d4ce6736c422c52e47ffbfa08c784e1b8c188efb69583ac001a0ab16022d774"
+    },
+	{
+      "filename": "018-xmlbeans-5.2.0.jar",
+      "version": "5.2.0",
+      "name": "xmlbeans.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/018-xmlbeans-5.2.0.jar",
+      "checksum": "5a344f323c049b7024edd39bbd58a38e77eb44218aad2794879e7f4ac3ca1de1"
+    },
+	{
+      "filename": "019-commons-imaging-1.0.0-alpha4.jar",
+      "version": "1.0.0",
+      "name": "commons-imaging.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/019-commons-imaging-1.0.0-alpha4.jar",
+      "checksum": "c7337e860e1d4b67fda1bd4142a2ac2bc1bb248fe9d5d3386ce65341395d8cd4"
+    },
+	{
+      "filename": "020-pngtastic-1.7.jar",
+      "version": "1.7",
+      "name": "pngtastic.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/020-pngtastic-1.7.jar",
+      "checksum": "1c2a242cdc7b139a427f411a0abc820314f38514f34a24545d22fc80f607bb8e"
+    },
+	{
+      "filename": "021-httpclient5-5.3.1.jar",
+      "version": "5.3.1",
+      "name": "httpclient5.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/021-httpclient5-5.3.1.jar",
+      "checksum": "08346a757c617f6ecc66af9f099260adde1f3a1351fa81cb22fc17482b31f823"
+    },
+	{
+      "filename": "021-httpcore5-5.3.1.jar",
+      "version": "5.3.1",
+      "name": "httpcore5.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/021-httpcore5-5.3.1.jar",
+      "checksum": "83f559ad1ee723c1ab3e80b040551cfacb2e5a52bdf04dcdd35419a6760d81b3"
+    },
+	{
+      "filename": "021-httpcore5-h2-5.3.1.jar",
+      "version": "5.3.1",
+      "name": "httpcore5-h2.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/021-httpcore5-h2-5.3.1.jar",
+      "checksum": "963e194a972aa3daf09287c921ed5a2dd4c3985c44185b0138002943025bed6a"
+    },
+	{
+      "filename": "022-gson-2.13.1.jar",
+      "version": "2.13.1",
+      "name": "gson.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/022-gson-2.13.1.jar",
+      "checksum": "94855942d4992f112946d3de1c334e709237b8126d8130bf07807c018a4a2120"
+    },
+	{
+      "filename": "022-protobuf-java-4.30.2.jar",
+      "version": "4.30.2",
+      "name": "protobuf-java.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/022-protobuf-java-4.30.2.jar",
+      "checksum": "0f3a4e9264db07cec429f2a68a66030e9b7487277b76863cdd0e9238cece249b"
+    },
+	{
+      "filename": "022-tink-1.17.0.jar",
+      "version": "1.17.0",
+      "name": "tink.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/022-tink-1.17.0.jar",
+      "checksum": "1f5e1f52e1295b4c35d2257c3cd14d715f81872e928f5bfb1c39cfb89585411d"
+    },
+	{
+      "filename": "023-eddsa-0.3.0.jar",
+      "version": "0.3.0",
+      "name": "eddsa.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/023-eddsa-0.3.0.jar",
+      "checksum": "4dda1120db856640dbec04140ed23242215a075fe127bdefa0dcfa29fb31267d"
+    },
+	{
+      "filename": "023-nearenough.jar",
+      "version": "1.0",
+      "name": "nearenough.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/023-nearenough.jar",
+      "checksum": "146e59cb7957b2250b685adb9fe5dcd672b8dae602ac9be42543cf44d07d0187"
+    },
+	{
+      "filename": "023-netty-buffer-4.1.121.Final.jar",
+      "version": "4.1.121",
+      "name": "netty-buffer.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/023-netty-buffer-4.1.121.Final.jar",
+      "checksum": "7d6ce32479f6f1326637ba118061bad31c3f7279f5fc2887aae8cba2526dcbff"
+    },
+	{
+      "filename": "023-netty-common-4.1.121.Final.jar",
+      "version": "4.1.121",
+      "name": "netty-common.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/023-netty-common-4.1.121.Final.jar",
+      "checksum": "58ddcad98fa2dbe69c9080e53e56e65cd50f61a3e45106b423cbad06b572a689"
+    },
+	{
+      "filename": "024-jna-5.17.0.jar",
+      "version": "5.17.0",
+      "name": "jna.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/024-jna-5.17.0.jar",
+      "checksum": "b3a9408e7c51e08ef0e3bfcc08f443f6ec0f6191ba8cd7c18d53d2b22e5bdbc0"
+    },
+	{
+      "filename": "024-jna-platform-5.17.0.jar",
+      "version": "5.17.0",
+      "name": "jna.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/024-jna-platform-5.17.0.jar",
+      "checksum": "b7e3d46c87bad2eb409b0e704916bcd81206168e357312dfddd0e253679cd9e0"
+    },
+	{
+      "filename": "024-oshi-core-6.8.1.jar",
+      "version": "6.8.1",
+      "name": "oshi-core.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/024-oshi-core-6.8.1.jar",
+      "checksum": "a519d72d79951758b769f374f37d4e124ff3bf38559a929beda4e17fb5288b2a"
+    },
+	{
+      "filename": "025-json-20240303.jar",
+      "version": "20240303",
+      "name": "json.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/025-json-20240303.jar",
+      "checksum": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed"
+    },
+	{
+      "filename": "AbsoluteLayout.jar",
+      "version": "1.0",
+      "name": "AbsoluteLayout.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/AbsoluteLayout.jar",
+      "checksum": "52586d07f05b91419d14189efa44146c12386c2d9afcb9c1489896b1055f78a2"
+    },
+	{
+      "filename": "opencv-410.jar",
+      "version": "4.10",
+      "name": "opencv.jar",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/lib/opencv-410.jar",
+      "checksum": "326946a2db1deab8697ad0526d85f77fcbb20910446be43555c15a50c2545eed"
+    }
+
+  ],
+  
+   "executables": [
+    {
+      "filename": "create_database.bat",
+      "version": "1.0",
+      "name": "create_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/create_database.bat",
+      "checksum": "f6b9c8fe1f9eefb4ce41b3a61ba33808d0be27ac137ffb8df251cebdf29be3d4"
+    },
+	{
+      "filename": "restore_database.bat",
+      "version": "1.0",
+      "name": "restore_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/restore_database.bat",
+      "checksum": "048736c6a8fdc936d0240d316911c1d80382770ebc5ad8b4849f5fdb45532117"
+    },
+	{
+      "filename": "sleep.bat",
+      "version": "1.0",
+      "name": "sleep.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/sleep.bat",
+      "checksum": "53d912937d72213fd1027d0b23fa4ab5a13dcf18116cc70f0bfecbe672daaa55"
+    },
+    {
+      "filename": "update_database.bat",
+      "version": "1.0",
+      "name": "update_database.bat",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/update_database.bat",
+      "checksum": "2ef45681381ae613cfda657bf6a8cc52c6f4c9c840f8864b1b44f899a6c6823c"
+    }
+  ],
+  
+   "filesbd": [
+    {
+      "filename": "2-10-2024_install",
+      "version": "2.10.2024",
+      "name": "2-10-2024",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/2-10-2024_install",
+      "checksum": "ffa052dcfb7d58e821bdea82ac4ff135716b30f5d3c48cc58848a5b41dd2e6bb"
+    },
+	{
+      "filename": "26-05-2025_install",
+      "version": "26.05.2025",
+      "name": "26-05-2025",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/install/bd/26-05-2025_install",
+      "checksum": "0188e53d75935ba9fa055e0186bb4e4c81fb245ef8d686e4545cc2e58f1ef575"
+    }
+	],
+
+   "executablesInit": [
+    {
+      "filename": "AppEscalatorPlus.exe",
+      "version": "1.0",
+      "name": "AppEscalatorPlus.exe",
+      "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/AppEscalatorPlus.exe",
+      "checksum": "f553362b293edb2e06247ad269d0bcae12111439572acab5d0ce67e8387ff2f1"
+    }
+	
+  ]
+}
