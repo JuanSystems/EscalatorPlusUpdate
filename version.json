@@ -1,5 +1,5 @@
 { 
- "version": "1.8.1",
+ "version": "1.8.2",
   "versionlibraries":"1.0.0",
   "versionExecutables":"1.0.0",
   "versionExecutablesInit":"1.0.0",
@@ -8,7 +8,7 @@
     "filename": "ImageGenerator.jar",
     "url": "https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/ImageGenerator.jar",
 	"urljson":"https://github.com/JuanSystems/EscalatorPlusUpdate/raw/main/version.json",
-    "checksum": "c844d7b9638b12b2e56a67421f3e52b4c21b85d9f7740dae407ca530fc6fc714"
+    "checksum": "7a599dacabc75409095bb1de13f0f86168ac407e876c08259eb925ef31a7a06c"
   },
   "libraries": [
     {
